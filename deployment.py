@@ -67,7 +67,7 @@ loaded_model = joblib.load(open("job_placement_model", 'rb'))
 st.write('# Job Placement Deployment')
 #st.header('Placement')
 
-lottie_link = "https://assets8.lottiefiles.com/packages/lf20_ax5yuc0o.json"
+lottie_link = "https://asset-cdn.lottiefiles"
 animation = load_lottie(lottie_link)
 
 st.write('---')
