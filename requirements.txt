@@ -1,6 +1,9 @@
+pip
 streamlit
 pandas
 numpy
 scikit-learn
 joblib
 streamlit_lottie
+time
+py
