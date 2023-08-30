@@ -1,9 +1,8 @@
-pip==23.2.1
 streamlit
 pandas
 numpy
 scikit-learn
 joblib
 streamlit_lottie
-time
-py
+
+
