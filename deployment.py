@@ -3,7 +3,7 @@ import requests
 from streamlit_lottie import st_lottie
 import joblib
 import numpy as np
-import time
+#import time
 
 st.set_page_config(page_title='Loan prediction', page_icon='::star::') #PAGE NAME
 
@@ -45,8 +45,8 @@ st.write('---')
 st.subheader('Enter your details to predict your loan')
 
 with st.container():
-    with st.spinner(text="Loading model..."):
-        time.sleep(1.5)
+   # with st.spinner(text="Loading model..."):
+        #time.sleep(1.5)
     
     right_column, left_column = st.columns(2)
     
@@ -78,8 +78,8 @@ with st.container():
 
     if st.button('Predict'):
             pred_Y = loaded_model.predict(sample)###'SEND DATA TO MODEL'
-            with st.spinner(text="Predicting..."):
-                    time.sleep(1.5)
+            #with st.spinner(text="Predicting..."):
+                   # time.sleep(1.5)
                     
             #change
             if pred_Y == 1:
